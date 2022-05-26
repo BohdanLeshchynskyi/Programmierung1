@@ -1,0 +1,32 @@
+Aufgabe 1 (10 Punkte)
+
+Implemetieren Sie folgende Methode:
+
+public static String numbersTriangle(firstNumber, height) {
+...
+}
+
+Aufruf numbersTriangle(3,4) :
+
+3
+3 4
+3 4 5
+3 4 5 6 
+
+
+Aufgabe 2 (20 Punkte)
+
+Erstellen Sie zwei OOP Klassen.
+
+a) Erstellen Sie eine öffentliche Klasse StudentTHD (package studentthd)
+    - Ein Student hat einen Nachnamen und Vornamen, Geburtsdatum(im ddmmyy Format), einen MatrikelNummer, und Jahrgang.
+    - Nachnamen, Vornamen, Geburtsdatum und Jahrgang werden im Konstruktor als Parameter übergeben.
+    - Matrkelnummer ist setzt sich aus dem Geburtsdatum und dem Jahrgang.
+    - die Instatzvariablen der Klasse StundentTHD sollen in allen Subklassen sichbar sein.
+    - ein Objekt der Klasse StudentTHD kann als String ausgewertet werden, z.B.
+        "Martin Bischof, 03.03.00, Matrkelnummer: 0303002021, Jahrgang: 2021".
+        
+b) Die Klasse StudentAI (package studentthd) erbt von der Klasse StudentTHD, die Klasse ist nur innerhalb des Package  verfügbar.
+
+    - ein StundentAI sutidert entweder Bachelorstudiengang "KI" oder "CY", diese Information wird in den Kostruktor übergeben und soll bei der auswertung eines Objekts der Klasse StudentAI mitberücksichtigt werden, z.B.:
+        "..., Bachelorstudiengang: KI"

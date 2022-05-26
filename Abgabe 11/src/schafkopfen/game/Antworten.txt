@@ -1,0 +1,9 @@
+Selectionsort
+firstCardIsHigherThanSecondCard
+hand[0].rank.equals("O") && hand[0].color.equals("Eichel")
+2048
+Eichel 10
+Eichel U
+83
+93
+getHand
